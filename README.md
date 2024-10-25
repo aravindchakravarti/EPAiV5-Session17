@@ -1,2 +1,4 @@
 # EPAiV5-Session17
-EPAiV5 Session 17 Assignment (Phase 2)
+Session 17 assignment
+
+![Build Status](https://github.com/aravindchakravarti/EPAiV5-Session17/actions/workflows/python-app.yml/badge.svg)
