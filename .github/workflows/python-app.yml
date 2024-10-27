@@ -31,6 +31,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt  # Assuming you have a requirements.txt for dependencies
 
-    - name: Run Unit Tests
+    - name: Run pytest on test_merge.py and test_validate.py
       run: |
-        python -m unittest discover  # This will discover and run all unit tests in your project
+        pytest test_merge.py
+        pytest test_validate.py
