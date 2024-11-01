@@ -17,7 +17,7 @@ def validate(dict_1, dict_2):
         return errors
 
     # Run the comparison
-    missing_keys = compare_nested_dict(dict_1, dict_2)
+    missing_keys = compare_nested_dict(dict_2, dict_1)
 
     # Prepare output based on the results
     if missing_keys:
@@ -26,5 +26,7 @@ def validate(dict_1, dict_2):
     else:
         state = True
         error = ''
+    
+    print (state, error)
 
-    return (state, error)
+    return state, error
