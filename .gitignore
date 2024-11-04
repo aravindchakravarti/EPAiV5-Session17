@@ -4,6 +4,9 @@ datasets/
 # Ignore the scratchpad and its contents
 /scratchpad
 
+# Ignore virtual environment and its contents
+.venv
+
 # Ignore Mac system files
 .DS_Store
 
