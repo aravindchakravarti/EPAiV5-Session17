@@ -1,5 +1,5 @@
-## CI/CD
-
+## CI/CD and Details
+Name: Aravind D. Chakravarti
 This project uses GitHub Actions for continuous integration, running tests on Python 3.8 and 3.11.
 
 ![Build Status](https://github.com/aravindchakravarti/EPAiV5-Session17/actions/workflows/python-app.yml/badge.svg)
@@ -37,21 +37,21 @@ pip install -r requirements.txt
 ### Dictionary Validation
 ```python
 from student_code import validate
-Define a template
+# Define a template
 template = {
-'user_id': int,
-'name': {
-'first': str,
-'last': str
-}
+  'user_id': int,
+  'name': {
+    'first': str,
+    'last': str
+    }
 }
 Validate a dictionary
 input_dict = {
-'user_id': 100,
-'name': {
-'first': 'John',
-'last': 'Doe'
-}
+  'user_id': 100,
+  'name': {
+    'first': 'John',
+    'last': 'Doe'
+    }
 }
 is_valid, error = validate(input_dict, template)
 ```
