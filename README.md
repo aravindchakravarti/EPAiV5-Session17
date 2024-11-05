@@ -45,7 +45,7 @@ template = {
     'last': str
     }
 }
-Validate a dictionary
+# Validate a dictionary
 input_dict = {
   'user_id': 100,
   'name': {
@@ -60,12 +60,12 @@ is_valid, error = validate(input_dict, template)
 ### Dictionary Merging
 ```python
 from student_merge import merge_with_defaultdict, merge_with_counter
-#Sample dictionaries
+# Sample dictionaries
 d1 = {'python': 10, 'java': 3}
 d2 = {'java': 10, 'python': 6}
-#Using defaultdict
+# Using defaultdict
 result1 = merge_with_defaultdict(d1, d2)
-#Using Counter
+# Using Counter
 result2 = merge_with_counter(d1, d2)
 ```
 
